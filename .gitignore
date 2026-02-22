@@ -4,6 +4,7 @@ out/
 !**/src/test/**/out/
 .idea
 lib
+src/resources
 AoC_Groovy_2025.iml
 .kotlin
 
