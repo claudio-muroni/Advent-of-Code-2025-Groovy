@@ -1,3 +1,4 @@
 static void main(String[] args) {
-    println "git push try 4"
+    def lines = new File("resources/Input_Day01_1.txt").readLines()
+    println(lines[0])
 }
