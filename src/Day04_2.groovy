@@ -1,5 +1,3 @@
-import groovyjarjarantlr4.v4.runtime.misc.Tuple2
-
 static void main() {
     def lines = new ArrayList<char[]>()
     for (l in new File("resources/Input_Day04_1.txt").readLines()) {
@@ -42,7 +40,7 @@ static void main() {
         }
 
         for (tup in rollsToRemoveList) {
-            lines[tup.getItem1()][tup.getItem2()] = 'x'
+            lines[tup.getV1()][tup.getV2()] = 'x'
         }
 
         removedRolls += goodRolls
